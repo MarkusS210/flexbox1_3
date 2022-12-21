@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Kanit ;
+    src: url(../fonts/Kanit-Thin.ttf);
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    margin: 40px;
+    align-items: baseline;
+   
+
+}
+
+.logo{
+    font-family: Kanit;
+    font-size: 15px;
+}
+
+.navBar a {
+    font-family: Dosis;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(33, 26, 26);
+    align-items: space-between;
+    margin: 10px;
+}
+
+#button{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    justify-content: baseline;
+    justify-items: space-around;
+    padding: 5px 20px 5px 20px;
+}
